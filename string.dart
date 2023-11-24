@@ -28,4 +28,11 @@ void main() {
 
   // Mengubah tipe data lain menjadi string
   print(angka.toString());
+
+  // Mengecek isi variabel string
+  print(namaSaya.isEmpty);
+  print(namaSaya.isNotEmpty);
+
+  // Menggabungkan string
+  print("Halo, Mr. " + nama + ", kenalkan saya " + namaSaya);
 }
