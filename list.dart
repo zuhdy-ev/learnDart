@@ -5,8 +5,11 @@ void main() {
     "Ahmad"
   ]; // List yang dynamic boleh juga ditulis "List" saja tanpa <dynamic>
 
-  print(mahasiswa); // print semua
-  print(mahasiswa[0]); // print index ke-0
+  // Menampilkan data di list
+  print(mahasiswa[0]);
+
+  // Menampilkan semua data di list
+  print(mahasiswa);
 
   // Menambahkan data ke list
   mahasiswa.add("Ryo");
@@ -25,7 +28,7 @@ void main() {
   mahasiswa.addAll(mahasiswa2);
   print(mahasiswa);
 
-  // Mengurutkan data di list
+  // Mengurutkan data di list berdasarkan abjad
   mahasiswa.sort();
   print(mahasiswa);
 
